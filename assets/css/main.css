@@ -1257,4 +1257,12 @@ body.darkmode a.btn-default {
     --font-regular: 0.813rem;
   }
 }
+@media screen and (max-width:768px){
+.navigation-bar{
+  display: none;
+}
+.navigation-bar.open{
+display: block;
+}
+}
 /* css end */
